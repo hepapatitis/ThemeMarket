@@ -1,0 +1,299 @@
+html, body {
+	font-family:"Roboto", "Helvetica", "Helvetica Neue", Arial;
+	background:#c5c5c5;
+	color:#707070;
+}
+
+/* ========================================
+	Navigation
+======================================== */
+.navbar {
+	margin-bottom:0;
+	border-radius:0;
+}
+
+.navbar-bf {
+	background:#1D1D1D;
+	color:#999;
+	text-transform:uppercase;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background:#3d3d3d;
+	color:#cccccc;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	background:#3d3d3d;
+}
+
+.navbar-nav li a {
+	padding:30px 22px;
+	height:120px;
+	font-weight:600;
+	transition:ease-in-out all 180ms;
+	max-width:210px;
+}
+
+.nav-desc {
+	font-size:12px;
+	color:#888;
+	line-height:125%;
+	margin-top:5px;
+}
+
+.menu-highlight {
+	background:#ff9900;
+	color:#fff;
+	padding:1px 4px;
+	text-transform:uppercase;
+	position:absolute;
+	top:5px;
+	right:5px;
+	font-size:10px;
+	font-weight:normal;
+	border-radius:3px;
+	display:block;
+}
+
+.menu-highlight.red {
+	background:#d34a4a;
+	color:#fff;
+}
+
+/* ========================================
+	Content
+======================================== */
+.page-wrapper {
+	padding:20px 36px;
+	background:#f0f0f0;
+	margin:auto -15px;
+}
+
+/* ========================================
+	Changelogs
+======================================== */
+.changelogs-container {
+	max-height:300px;
+	overflow-y:auto;
+	background:#fff;
+	padding:10px;
+	border-radius:4px;
+	margin:5px 0 10px;
+	border:1px solid #ccc;
+}
+
+.changelogs-container ul li {
+	margin:5px 0;
+}
+
+.changelogs-container h3 {
+	font-size:17px;
+}
+
+/* ========================================
+	Contribution
+======================================== */
+.contribution-table-container {
+	max-height:300px;
+	overflow-y:auto;
+	background:#fff;
+	padding:10px;
+	border-radius:4px;
+	margin:5px 0 10px;
+	border:1px solid #ccc;
+}
+
+/* ========================================
+	Typography
+======================================== */
+h1,h2,h3,h4,h5,h6 { text-transform:uppercase; }
+p { text-transform:normal; }
+h1 { font-size:26px; letter-spacing:-0.5px; font-weight:600; color:#282828; }
+h2 { font-size:23px; letter-spacing:-0.5px; font-weight:500px; color:#444444; }
+h3 { font-size:21px; }
+h4 { font-size:19px; }
+h5 { font-size:15px; }
+h6 { font-size:14px; }
+
+hr { border-top: 1px solid #dedede; }
+hr.small { margin:20px 0; }
+hr.medium { margin:25px 0; }
+hr.large{ margin:32px 0; }
+
+/* ========================================
+	Unit Selection
+======================================== */
+.unit-selection-container {
+	text-align:center;
+}
+.unit-selection {
+	display:inline-block;
+	width:125px;
+	padding:15px;
+	text-align:center;
+	background:#fff;
+	border-radius:4px;
+	margin:1px;
+	border:2px solid transparent;
+	transition:ease-in-out all 180ms;
+}
+.unit-selection:hover {
+	border:2px solid #bbb;
+	cursor:pointer;
+}
+.unit-selection.active {
+	border:2px solid #ffafaf;
+}
+.unit-selection-desc {
+	text-align:center;
+	font-size:12px;
+	text-transform:uppercase;
+	margin-top:7px;
+}
+
+/* ========================================
+	Team Units Calculator
+======================================== */
+.tu-units-container {
+	max-height:400px;
+	overflow-y:auto;
+	margin:10px 0;
+	background:#fff;
+	border:1px solid #ccc;
+}
+
+.tu-unit {
+	border-bottom:1px solid #e0e0e0;
+	padding:5px 8px;
+	transition:all linear 100ms;
+	clear:both;
+}
+
+.tu-unit:last-child {
+	border-bottom:0;
+}
+
+.tu-unit:hover {
+	background:#ddd;
+	padding-left:14px;
+	color:#000;
+	cursor:pointer;
+}
+.tu-unit:hover .tu-cost {
+	color:#000;
+}
+
+.tu-unit.empty  {
+	font-style:italic;
+	color:#aaa;
+	background:#f0f0f0;
+}
+
+.tu-title {
+	display:inline-block;
+	margin-left:5px;
+}
+
+.tu-cost {
+	display:inline-block;
+	float:right;
+	color:#aaa;
+	text-transform:uppercase;
+	font-size:13px;
+	padding:13px 3px;
+	transition:all linear 100ms;
+}
+
+.tu-cost:after {
+	clear:both;
+}
+
+.tu-total-title {
+	font-size:20px;
+	text-transform:uppercase;
+	float:left;
+	letter-spacing:-1px;
+}
+
+.tu-total-number {
+	font-size:20px;
+	color:#000;
+	float:right;
+}
+
+.tu-units-total {
+	background:#fff;
+	border:1px solid #ccc;
+	float:left;
+	width:100%;
+	padding:10px;
+	margin:5px 0;
+}
+
+.tu-units-total:after {
+	clear:both;
+}
+
+/* ========================================
+	Required Metal Unit
+======================================== */
+.req_metal_unit {
+	display:inline-block;
+	padding:3px;
+	border:1px solid #ddd;
+	border-radius:3px;
+	background:#fff;
+	margin:3px;
+}
+
+/* ========================================
+	Footer
+======================================== */
+.footer {
+	margin:30px 0;
+	text-transform:uppercase;
+}
+
+/* ========================================
+	Media Queries
+======================================== */
+@media (max-width: 767px) {
+	.navbar-nav li a {
+		max-width:100%;
+		height:auto;
+		padding:15px 20px;
+	}
+	
+	.contribution-table-container {
+		max-height:300px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.navbar-nav li a {
+		max-width:180px;
+		padding:50px 25px;
+	}
+	.nav-desc { display:none; }
+	
+	.contribution-table-container {
+		max-height:300px;
+	}
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+	.navbar-nav li a {
+		max-width:200px;
+	}
+	
+	.contribution-table-container {
+		max-height:580px;
+	}
+}
+@media (min-width: 1200px) {
+	.navbar-nav li a {
+		max-width:210px;
+	}
+	
+	.contribution-table-container {
+		max-height:400px;
+	}
+}
